@@ -1,0 +1,17 @@
+[package]
+name = "use-strain"
+description = "Primitive engineering strain helpers"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+documentation = "https://docs.rs/use-strain"
+keywords = ["materials", "strain", "deformation", "ratio"]
+categories = ["algorithms", "science"]
+
+[lints]
+workspace = true

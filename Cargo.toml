@@ -1,0 +1,38 @@
+[workspace]
+members = [
+    "crates/use-materials",
+    "crates/use-density",
+    "crates/use-stress",
+    "crates/use-strain",
+    "crates/use-elasticity",
+    "crates/use-hardness",
+    "crates/use-thermal-expansion",
+    "crates/use-conductivity",
+    "crates/use-material-property",
+]
+resolver = "2"
+
+[workspace.package]
+authors = ["RustUse Contributors"]
+edition = "2024"
+homepage = "https://rustuse.org"
+license = "MIT OR Apache-2.0"
+publish = false
+readme = "README.md"
+repository = "https://github.com/RustUse/use-materials"
+rust-version = "1.95.0"
+version = "0.0.1"
+
+[workspace.dependencies]
+use-conductivity = { version = "0.0.1", path = "crates/use-conductivity" }
+use-density = { version = "0.0.1", path = "crates/use-density" }
+use-elasticity = { version = "0.0.1", path = "crates/use-elasticity" }
+use-hardness = { version = "0.0.1", path = "crates/use-hardness" }
+use-material-property = { version = "0.0.1", path = "crates/use-material-property" }
+use-materials = { version = "0.0.1", path = "crates/use-materials" }
+use-strain = { version = "0.0.1", path = "crates/use-strain" }
+use-stress = { version = "0.0.1", path = "crates/use-stress" }
+use-thermal-expansion = { version = "0.0.1", path = "crates/use-thermal-expansion" }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"

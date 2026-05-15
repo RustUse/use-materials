@@ -1,0 +1,17 @@
+[package]
+name = "use-elasticity"
+description = "Primitive elasticity and Hooke's-law-style helpers"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+documentation = "https://docs.rs/use-elasticity"
+keywords = ["materials", "elasticity", "modulus", "hooke"]
+categories = ["algorithms", "science"]
+
+[lints]
+workspace = true

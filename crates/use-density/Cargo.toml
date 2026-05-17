@@ -1,5 +1,5 @@
 [package]
-name = "use-density"
+name = "use-materials-density"
 description = "Primitive material density helpers"
 publish = true
 authors.workspace = true
@@ -9,9 +9,12 @@ homepage.workspace = true
 license.workspace = true
 repository.workspace = true
 rust-version.workspace = true
-documentation = "https://docs.rs/use-density"
+documentation = "https://docs.rs/use-materials-density"
 keywords = ["materials", "density", "mass", "volume"]
 categories = ["algorithms", "science"]
+
+[lib]
+name = "use_density"
 
 [lints]
 workspace = true

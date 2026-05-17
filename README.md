@@ -21,7 +21,7 @@ Initial calculations assume SI units unless otherwise documented.
 ## Workspace crates
 
 - `use-materials`: thin facade crate that reexports the full materials workspace
-- `use-density`: material density primitives and conversions
+- `use-materials-density`: material density primitives and conversions, exposed in code as `use_density`
 - `use-stress`: stress and pressure-like helpers in pascals
 - `use-strain`: engineering strain and percent-strain helpers
 - `use-elasticity`: Young's-modulus and elastic-deformation helpers

@@ -25,7 +25,7 @@ version = "0.0.1"
 
 [workspace.dependencies]
 use-conductivity = { version = "0.0.1", path = "crates/use-conductivity" }
-use-density = { version = "0.0.1", path = "crates/use-density" }
+use-density = { version = "0.0.1", path = "crates/use-density", package = "use-materials-density" }
 use-elasticity = { version = "0.0.1", path = "crates/use-elasticity" }
 use-hardness = { version = "0.0.1", path = "crates/use-hardness" }
 use-material-property = { version = "0.0.1", path = "crates/use-material-property" }

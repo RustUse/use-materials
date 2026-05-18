@@ -36,3 +36,27 @@ use-thermal-expansion = { version = "0.0.1", path = "crates/use-thermal-expansio
 
 [workspace.lints.rust]
 unsafe_code = "forbid"
+[workspace.metadata.rustuse.release]
+publish = false
+versioning = "lockstep-0.x"
+first-publish-candidates = [
+    "use-materials-density",
+    "use-stress",
+    "use-strain",
+    "use-elasticity",
+    "use-hardness",
+    "use-thermal-expansion",
+    "use-conductivity",
+    "use-material-property",
+    "use-materials",
+]
+[workspace.lints.clippy]
+all = { level = "warn", priority = -1 }
+cargo = { level = "warn", priority = -1 }
+expect_used = "warn"
+multiple_crate_versions = "allow"
+nursery = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+todo = "deny"
+unimplemented = "deny"
+unwrap_used = "warn"

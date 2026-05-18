@@ -1,0 +1,81 @@
+[workspace]
+release = false
+release_always = false
+changelog_update = false
+pr_labels = ["release"]
+max_analyze_commits = 2000
+
+[[package]]
+name = "use-materials-density"
+release = true
+version_group = "rustuse-materials"
+
+[[package]]
+name = "use-stress"
+release = true
+version_group = "rustuse-materials"
+
+[[package]]
+name = "use-strain"
+release = true
+version_group = "rustuse-materials"
+
+[[package]]
+name = "use-elasticity"
+release = true
+version_group = "rustuse-materials"
+
+[[package]]
+name = "use-hardness"
+release = true
+version_group = "rustuse-materials"
+
+[[package]]
+name = "use-thermal-expansion"
+release = true
+version_group = "rustuse-materials"
+
+[[package]]
+name = "use-conductivity"
+release = true
+version_group = "rustuse-materials"
+
+[[package]]
+name = "use-material-property"
+release = true
+version_group = "rustuse-materials"
+
+[[package]]
+name = "use-materials"
+release = true
+version_group = "rustuse-materials"
+changelog_update = true
+changelog_path = "./CHANGELOG.md"
+changelog_include = [
+  "use-materials-density",
+  "use-stress",
+  "use-strain",
+  "use-elasticity",
+  "use-hardness",
+  "use-thermal-expansion",
+  "use-conductivity",
+  "use-material-property",
+]
+
+[changelog]
+header = """# Changelog
+
+## Unreleased
+"""
+protect_breaking_commits = true
+sort_commits = "oldest"
+commit_parsers = [
+  { message = "^feat(?:\\([^)]+\\))?!?: .+", group = "Added" },
+  { message = "^fix(?:\\([^)]+\\))?!?: .+", group = "Fixed" },
+  { message = "^security(?:\\([^)]+\\))?!?: .+", group = "Security" },
+  { message = "^(?:refactor|perf|change)(?:\\([^)]+\\))?!?: .+", group = "Changed" },
+  { message = "^docs(?:\\([^)]+\\))?!?: .+", group = "Documentation" },
+  { message = "^(?:build|ci|chore|deps|test)(?:\\([^)]+\\))?!?: .+", group = "Tooling" },
+  { footer = "^changelog: ?ignore$", skip = true },
+  { message = "^.*", group = "Changed" },
+]

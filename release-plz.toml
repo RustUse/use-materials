@@ -21,7 +21,7 @@ release = true
 version_group = "rustuse-materials"
 
 [[package]]
-name = "use-elasticity"
+name = "use-material-elasticity"
 release = true
 version_group = "rustuse-materials"
 
@@ -55,7 +55,7 @@ changelog_include = [
   "use-materials-density",
   "use-stress",
   "use-strain",
-  "use-elasticity",
+  "use-material-elasticity",
   "use-hardness",
   "use-thermal-expansion",
   "use-conductivity",

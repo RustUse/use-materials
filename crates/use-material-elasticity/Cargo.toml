@@ -1,5 +1,5 @@
 [package]
-name = "use-elasticity"
+name = "use-material-elasticity"
 description = "Primitive elasticity and Hooke's-law-style helpers"
 publish = true
 authors.workspace = true
@@ -9,9 +9,13 @@ homepage.workspace = true
 license.workspace = true
 repository.workspace = true
 rust-version.workspace = true
-documentation = "https://docs.rs/use-elasticity"
+readme = "README.md"
+documentation = "https://docs.rs/use-material-elasticity"
 keywords = ["materials", "elasticity", "modulus", "hooke"]
 categories = ["algorithms", "science"]
+
+[lib]
+name = "use_material_elasticity"
 
 [lints]
 workspace = true

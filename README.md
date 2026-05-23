@@ -24,7 +24,7 @@ Initial calculations assume SI units unless otherwise documented.
 - `use-materials-density`: material density primitives and conversions, exposed in code as `use_density`
 - `use-stress`: stress and pressure-like helpers in pascals
 - `use-strain`: engineering strain and percent-strain helpers
-- `use-elasticity`: Young's-modulus and elastic-deformation helpers
+- `use-material-elasticity`: Young's-modulus and elastic-deformation helpers, exposed in code as `use_material_elasticity`
 - `use-hardness`: hardness values and same-scale comparisons
 - `use-thermal-expansion`: linear expansion and coefficient helpers
 - `use-conductivity`: thermal and electrical conductivity helpers

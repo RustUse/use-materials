@@ -7,11 +7,11 @@ name = "use-conductivity"
 version = "0.0.1"
 
 [[package]]
-name = "use-elasticity"
+name = "use-hardness"
 version = "0.0.1"
 
 [[package]]
-name = "use-hardness"
+name = "use-material-elasticity"
 version = "0.0.1"
 
 [[package]]
@@ -20,11 +20,11 @@ version = "0.0.1"
 
 [[package]]
 name = "use-materials"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "use-conductivity",
- "use-elasticity",
  "use-hardness",
+ "use-material-elasticity",
  "use-material-property",
  "use-materials-density",
  "use-strain",

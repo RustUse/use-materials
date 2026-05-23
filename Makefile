@@ -1,6 +1,6 @@
 .PHONY: help fmt check lint test test-minimal build doc examples audit deny sbom publish-dry-run-focused publish-dry-run-facade release-readiness facade-post-publish-validation verify
 
-FOCUSED_CRATES := use-materials-density use-stress use-strain use-elasticity use-hardness use-thermal-expansion use-conductivity use-material-property
+FOCUSED_CRATES := use-materials-density use-stress use-strain use-material-elasticity use-hardness use-thermal-expansion use-conductivity use-material-property
 FACADE_CRATE := use-materials
 
 help:

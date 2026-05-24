@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [0.0.3](https://github.com/RustUse/use-materials/compare/use-materials-v0.0.2...use-materials-v0.0.3) - 2026-05-24
+
+### Changed
+
+- Rename use-elasticity to use-material-elasticity
+
 ### Added
 
 - Added `use-material-elasticity` as the materials-owned elasticity package.

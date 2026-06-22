@@ -30,7 +30,7 @@ jobs:
                 use-materials-density use-stress use-strain use-material-elasticity use-hardness use-thermal-expansion use-conductivity use-material-property use-materials
         steps:
             - name: Check out repository
-              uses: actions/checkout@v6
+              uses: actions/checkout@v7
               with:
                   fetch-depth: 0
                   persist-credentials: false

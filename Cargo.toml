@@ -21,18 +21,18 @@ publish = false
 readme = "README.md"
 repository = "https://github.com/RustUse/use-materials"
 rust-version = "1.95.0"
-version = "0.0.1"
+version = "0.0.2"
 
 [workspace.dependencies]
-use-conductivity = { version = "0.0.1", path = "crates/use-conductivity" }
-use-density = { version = "0.0.1", path = "crates/use-density", package = "use-materials-density" }
-use-hardness = { version = "0.0.1", path = "crates/use-hardness" }
-use-material-elasticity = { version = "0.0.1", path = "crates/use-material-elasticity" }
-use-material-property = { version = "0.0.1", path = "crates/use-material-property" }
-use-materials = { version = "0.0.2", path = "crates/use-materials" }
-use-strain = { version = "0.0.1", path = "crates/use-strain" }
-use-stress = { version = "0.0.1", path = "crates/use-stress" }
-use-thermal-expansion = { version = "0.0.1", path = "crates/use-thermal-expansion" }
+use-conductivity = { version = "0.0.2", path = "crates/use-conductivity" }
+use-density = { version = "0.0.2", path = "crates/use-density", package = "use-materials-density" }
+use-hardness = { version = "0.0.2", path = "crates/use-hardness" }
+use-material-elasticity = { version = "0.0.2", path = "crates/use-material-elasticity" }
+use-material-property = { version = "0.0.2", path = "crates/use-material-property" }
+use-materials = { version = "0.0.3", path = "crates/use-materials" }
+use-strain = { version = "0.0.2", path = "crates/use-strain" }
+use-stress = { version = "0.0.2", path = "crates/use-stress" }
+use-thermal-expansion = { version = "0.0.2", path = "crates/use-thermal-expansion" }
 
 [workspace.lints.rust]
 unsafe_code = "forbid"

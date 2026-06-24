@@ -4,23 +4,23 @@ version = 4
 
 [[package]]
 name = "use-conductivity"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-hardness"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-material-elasticity"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-material-property"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-materials"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "use-conductivity",
  "use-hardness",
@@ -34,16 +34,16 @@ dependencies = [
 
 [[package]]
 name = "use-materials-density"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-strain"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-stress"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-thermal-expansion"
-version = "0.0.1"
+version = "0.0.2"
